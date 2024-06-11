@@ -1,7 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Pnfi-TgX)
-### Exercise: Bank System Implementation
+# Exercise: Bank System Implementation
 
-#### Part 1: Bank Account Class
+### Part 1: Bank Account Class
 Create a class called `BankAccount` to represent a basic bank account.
 
 1. **Attributes:**
@@ -24,7 +23,7 @@ print("Owner Name:", account.owner_name)
 print("Current Balance:", account.balance)
 ```
 
-#### Part 2: Savings Account Class
+### Part 2: Savings Account Class
 Create a subclass called `SavingsAccount` that inherits from `BankAccount`.
 
 3. **Additional Method:**
@@ -41,7 +40,7 @@ print("Owner Name:", savings_account.owner_name)
 print("Current Balance with Interest:", savings_account.balance)
 ```
 
-#### Part 3: Customer Class
+### Part 3: Customer Class
 Create a class called `Customer` to represent a bank customer.
 
 4. **Attributes:**
@@ -65,7 +64,7 @@ print("Customer Name:", customer.name)
 print("Customer's Accounts:", [acc.account_number for acc in customer.accounts])
 ```
 
-#### Part 4: Bank Class
+### Part 4: Bank Class
 Create a class called `Bank` to represent a bank system.
 
 6. **Attributes:**
@@ -84,7 +83,7 @@ found_customer = bank.find_customer_by_id("C001")
 print("Found Customer Name:", found_customer.name if found_customer else "Not found")
 ```
 
-#### Part 5: Transaction Logging
+### Part 5: Transaction Logging
 Extend the `BankAccount` class to log all transactions.
 
 8. **Additional Method:**
